@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: >
+          OS = cat /etc/os-release
           echo "This job is running on $OS"
