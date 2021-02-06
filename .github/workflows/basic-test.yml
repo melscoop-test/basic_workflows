@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: >
-          echo "User ${{ github.event.inputs.username }} ran a workflow manually."
-          echo "Because ${{ github.event.inputs.reason }}."
+          echo "This job is running on $OS"
