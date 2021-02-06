@@ -1,0 +1,8 @@
+name: testing basic workflows
+on: push
+jobs:
+  first-job:
+    steps:
+      - run: >
+          echo "User ${{ github.event.inputs.username }} ran a workflow manually."
+          echo "Because ${{ github.event.inputs.reason }}."
