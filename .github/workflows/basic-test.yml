@@ -2,6 +2,7 @@ name: testing basic workflows
 on: push
 jobs:
   first-job:
+    runs-on: ubuntu-latest
     steps:
       - run: >
           echo "User ${{ github.event.inputs.username }} ran a workflow manually."
