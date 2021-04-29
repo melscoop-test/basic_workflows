@@ -4,6 +4,5 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          os="$(cat /etc/os-release | head -n1 | cut -d'"' -f2)"
-          echo "This job is running on $os"
+      - name: Hostname
+        run: echo "This job is running on $HOSTNAME"
