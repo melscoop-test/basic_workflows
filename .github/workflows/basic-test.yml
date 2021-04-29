@@ -4,6 +4,6 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - run: >
+      - run: |
           os="$(cat /etc/os-release | head -n1 | cut -d'"' -f2)"
           echo "This job is running on $os"
