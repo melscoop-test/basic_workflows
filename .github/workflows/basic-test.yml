@@ -1,4 +1,4 @@
-name: testing basic workflows
+name: testing basic workflow
 on: push
 jobs:
   first-job:
