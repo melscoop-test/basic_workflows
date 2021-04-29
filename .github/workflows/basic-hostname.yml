@@ -1,7 +1,7 @@
-name: Basic info
-on: push
+name: Basic host info
+on: workflow_dispatch
 jobs:
-  first-job:
+  hostname-info:
     runs-on: ubuntu-latest
     steps:
       - name: Display hostname info.
