@@ -1,8 +1,8 @@
-name: testing basic workflow
+name: Basic info
 on: push
 jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Hostname
+      - name: Display hostname info.
         run: echo "This job is running on $HOSTNAME"
