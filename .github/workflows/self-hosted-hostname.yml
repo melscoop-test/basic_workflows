@@ -1,4 +1,4 @@
-name: Basic host info
+name: Self-hosted host info
 on: workflow_dispatch
 jobs:
   hostname-info:
