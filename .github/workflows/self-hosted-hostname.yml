@@ -1,0 +1,8 @@
+name: Basic host info
+on: workflow_dispatch
+jobs:
+  hostname-info:
+    runs-on: self-hosted
+    steps:
+      - name: Display hostname info.
+        run: echo "This job is running on $HOSTNAME"
