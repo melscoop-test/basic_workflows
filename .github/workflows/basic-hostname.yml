@@ -1,8 +1,8 @@
-name: Basic host info
+name: GitHub Hosted info
 on: workflow_dispatch
 jobs:
   hostname-info:
     runs-on: ubuntu-latest
     steps:
-      - name: Display hostname info.
+      - name: Display GitHub hosted hostname info.
         run: echo "This job is running on $HOSTNAME"
